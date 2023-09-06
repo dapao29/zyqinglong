@@ -14,7 +14,7 @@ export meituanAutoWithdraw="false"
 关闭自动提现可以存金币到50元余额再提现, 目前比较难存满, 需要做下单任务
 
 自行捉包把meituan.com里面的token(一般在请求头里)填到变量 meituanCookie 中, 多账号换行或&或@隔开
-export meituanCookie="AgGZIgsYHyxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx"
+export meituanCookie="AgHsIl2O8IVEOnPgeYsueES-0nj7e3dtP4RaMMm6SKomirGswNiU8dZWkpzZozBp_W6Ga8zKSYK5zgAAAACPGgAAmvbFU-oLUgBdmME9gAB15mPaCrHQhcBgKQTHTk7E7MDHHR9LuGhIE5CKI8x2IDZC"
 
 cron: 2 0,7,11,17,21 * * *
 const $ = new Env("美团");
